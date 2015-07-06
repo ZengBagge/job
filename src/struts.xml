@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">  
+      
+<struts>  
+    <constant name="struts.i18n.encoding" value="UTF-8" />  
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant> <!-- 打开！动态action -->
+    <constant name="struts.devMode" value="false"></constant>
+    <constant name="struts.objectFactory" value="spring"></constant>
+    <constant name="struts.multipart.maxSize" value="6291456"/><!--上传文件大小限制  -->
+    <package name="main" namespace="/" extends="json-default" > 
+  
+
+    <action name="index" class="indexAction">  
+       <result name="index">/WEB-INF/index.jsp</result>
+    </action>  
+    </package>  
+      
+</struts>   
