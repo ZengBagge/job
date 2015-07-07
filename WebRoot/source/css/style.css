@@ -1,0 +1,151 @@
+.main{background:#f0ece8;}
+header#navbar {
+    left: 0;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+header#navbar .nav-mask {
+    background-color: #f0ece8;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    z-index: 9000;
+}
+header#navbar a.logo {
+    background: #46bd00 url("../images/friedolin.png") no-repeat scroll right top;
+    cursor: pointer;
+    display: block;
+    height: 80px;
+    position: absolute;
+    width: 80px;
+    z-index: 2;
+}
+header#navbar .menu {
+    background-color: #fff;
+    display: none;
+    left: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+header#navbar .menu {
+    height: 80px;
+    max-width: 100%;
+    padding: 0;
+    width: auto;
+}
+header#navbar .wrapper {
+    position: relative;
+}
+header#navbar .desktop{
+	padding:0px;
+}
+header#navbar .desktop .menu {
+    display: block;
+}
+header#navbar .menu li {
+    float: left;
+    line-height: 80px;
+}
+
+header#navbar .menu li a {
+    display: block;
+    font-size: 11px;
+    line-height: 80px;
+    padding: 0 20px;
+    width: auto;
+}
+header#navbar .menu li a {
+    color: #000;
+    display: inline-block;
+    font: bold 2.33333em/55px "BentonSans","Arial",sans-serif;
+    padding-left: 6%;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 94%;
+}
+
+header#navbar .menu li a {
+    display: block;
+    font-size: 14px;
+    line-height: 80px;
+    padding: 0 20px;
+    width: auto;
+}
+header#navbar .menu li > ul {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header#navbar .menu > li:hover ,header#navbar .menu > li > a:hover{
+	background:#161616;
+	color:#fff;
+}
+header#navbar .menu > li:hover ul {
+    background-color: #161616;
+    display: block !important;
+    left: 0;
+    min-width: 222px;
+    position: absolute;
+    top: 80px;
+}
+header#navbar .menu > li:hover ul li {
+    float: none;
+    height: 40px;
+}
+
+header#navbar .menu li > ul {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header#navbar .menu li > ul li {
+    display: block;
+    position: static;
+    line-height:40px;
+}
+
+header#navbar .menu li > ul li a {
+    display: inline-block;
+    width: 94%;
+    line-height:40px;
+}
+header#navbar .menu li > ul li:hover{
+	background:#46bd01;
+}
+header#navbar .menu li.active a, header#navbar .menu li:hover a, header#navbar .menu li.current a {
+    color: #fff;
+}
+.hero article {
+    width: 100%;
+}
+.hero {
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.hero .txt-ln-lb .info {
+    bottom: 8.33333%;
+    padding-left: 8.33333%;
+}
+.hero article .info {
+    position: absolute;
+    width: 50% !important;
+    z-index: 101;
+}
+.hero article .info h3 {
+    font: bold 4.5em/0.944444em "BentonSans","Arial",sans-serif;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
