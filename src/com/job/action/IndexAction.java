@@ -17,7 +17,9 @@ public class IndexAction extends ActionSupport{
 
 	@Override
 	public String execute() throws Exception {
-		logger.info("主页访问了");
+		logger.error("主页访问了");
 		return "index";
 	}
+	
+	
 }
